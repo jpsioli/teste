@@ -13,7 +13,7 @@ namespace Calculator
         {
              Console.Clear();
 
-             Console.WriteLine("O que deseja fazer?");
+             Console.WriteLine("O que deseja fazer agora?");
              Console.WriteLine("1 - Soma");
              Console.WriteLine("2 - Subtração");
              Console.WriteLine("3 - Divisão");
@@ -44,10 +44,10 @@ namespace Calculator
 
         static void Soma()
         {
-            Console.WriteLine("Primeiro valor: ");
+            Console.WriteLine("Informe o primeiro valor: ");
             float v1 = float.Parse(Console.ReadLine());
 
-            Console.WriteLine("Segundo valor: ");
+            Console.WriteLine("Informe o segundo valor: ");
             float v2 = float.Parse(Console.ReadLine());
 
             Console.WriteLine("");
